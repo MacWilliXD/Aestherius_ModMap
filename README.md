@@ -4,6 +4,17 @@ Mod de mundo para el servidor de rol **Aestherius** (Skyrim Special Edition / Sk
 
 Añade una **zona de spawn** desde la que los jugadores pueden viajar a las **ciudades principales**, además de otras modificaciones del mundo pensadas para el servidor.
 
+## Zona de spawn
+
+| Dato | Valor |
+|---|---|
+| Worldspace | `001WorldSpawn` |
+| Celda | cuadrante `0, 0` |
+| Marcador | `MarkerShowMenu` |
+| Posición (X, Y, Z) | `2050.6848, 1202.2542, 396.1061` |
+
+`MarkerShowMenu` es el punto de inicio de los jugadores nuevos: ahí aparecen para la creación de personaje y, desde la zona de spawn, viajan a las ciudades principales.
+
 ## Requisitos
 
 - Skyrim Special Edition (con Dawnguard, Hearthfire y Dragonborn, que vienen incluidos).
