@@ -37,3 +37,28 @@ git pull
 ```
 
 y vuelve a copiar el contenido de `Data/` sobre la carpeta `Data` de Skyrim, reemplazando los archivos.
+
+## Repo dentro de la carpeta del juego (administradores)
+
+El `.gitignore` ignora todo excepto los archivos del mod, así que el repo puede vivir directamente en la carpeta `Skyrim Special Edition`: se edita en el Creation Kit y se sube desde ahí mismo, sin copiar nada, y el resto del juego nunca entra al repo.
+
+Como la carpeta del juego no está vacía, no se puede usar `git clone`. En su lugar, desde la carpeta `Skyrim Special Edition`:
+
+```
+git init
+git remote add origin https://github.com/MacWilliXD/Aestherius_ModMap.git
+git fetch origin
+git checkout -f -b main --track origin/main
+```
+
+> `checkout -f` reemplaza los archivos del mod que ya hubiera en `Data` por los del repo. Si tienes cambios locales sin subir, respáldalos antes.
+
+Después, para subir cambios:
+
+```
+git add -A
+git commit -m "Descripción del cambio"
+git push
+```
+
+Si el mod llega a usar un archivo nuevo (otro script, una malla, etc.), hay que permitirlo en el `.gitignore`; si no, git lo ignora.

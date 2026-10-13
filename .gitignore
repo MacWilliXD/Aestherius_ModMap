@@ -1,0 +1,21 @@
+# Este repo se puede poner directamente en la carpeta del juego
+# (Skyrim Special Edition). Todo se ignora salvo los archivos del mod.
+
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+
+!/Data/
+/Data/*
+!/Data/AestheriusMap.esp
+
+!/Data/Scripts/
+/Data/Scripts/*
+!/Data/Scripts/TpToPoint_Script.pex
+
+!/Data/Source/
+/Data/Source/*
+!/Data/Source/Scripts/
+/Data/Source/Scripts/*
+!/Data/Source/Scripts/TpToPoint_Script.psc
