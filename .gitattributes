@@ -1,2 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Archivos del Creation Kit: binarios, que git no los toque
+*.esp binary
+*.esm binary
+*.esl binary
+*.pex binary
+*.bsa binary
