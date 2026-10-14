@@ -18,7 +18,7 @@ Añade una **zona de spawn** desde la que los jugadores pueden viajar a las **ci
 ## Requisitos
 
 - Skyrim Special Edition (con Dawnguard, Hearthfire y Dragonborn, que vienen incluidos).
-- **[JK's Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/6289)** — obligatorio. `AestheriusMap.esp` lo tiene como master, así que sin él el juego no carga el mod (o se cierra al iniciar).
+- No depende de otros mods.
 
 ## Contenido
 
@@ -32,14 +32,13 @@ La carpeta `Data/` tiene la misma estructura que la carpeta `Data` de Skyrim:
 
 ## Instalación
 
-1. Instala **JK's Skyrim** desde Nexus.
-2. Clona este repositorio:
+1. Clona este repositorio:
    ```
    git clone https://github.com/MacWilliXD/Aestherius_ModMap.git
    ```
-3. Copia el contenido de `Data/` dentro de la carpeta `Data` de Skyrim, por ejemplo:
+2. Copia el contenido de `Data/` dentro de la carpeta `Data` de Skyrim, por ejemplo:
    `C:\Program Files (x86)\Steam\steamapps\common\Skyrim Special Edition\Data`
-4. Activa `AestheriusMap.esp` en tu gestor de mods (o en `plugins.txt`), **después** de `JKs Skyrim.esp`.
+3. Activa `AestheriusMap.esp` en tu gestor de mods (o en `plugins.txt`).
 
 ## Actualizar
 
