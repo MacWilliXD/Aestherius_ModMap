@@ -15,6 +15,16 @@ Añade una **zona de spawn** desde la que los jugadores pueden viajar a las **ci
 
 `MarkerShowMenu` es el punto de inicio de los jugadores nuevos: ahí aparecen para la creación de personaje y, desde la zona de spawn, viajan a las ciudades principales.
 
+## Mundos y zonas del mod
+
+| Worldspace | Qué es |
+|---|---|
+| `001WorldSpawn` | Mundo de spawn del servidor (ver arriba) |
+| `002CustomsInteriors` | Interiores personalizados |
+| `BattleZoneTest` | Mundo para pruebas de batalla |
+| `000WorldPresets` | Mundo de presets |
+| `Tamriel` (Skyrim) | Cambios en ciudades y caminos; incluye el inicio de una población dunmer detrás de Ventalia (Windhelm), celdas 33–35, 8–10 |
+
 ## Requisitos
 
 - Skyrim Special Edition (con Dawnguard, Hearthfire y Dragonborn, que vienen incluidos).
