@@ -25,6 +25,16 @@ Añade una **zona de spawn** desde la que los jugadores pueden viajar a las **ci
 | `000WorldPresets` | Mundo de presets |
 | `Tamriel` (Skyrim) | Cambios en ciudades y caminos; incluye el inicio de una población dunmer detrás de Ventalia (Windhelm), celdas 33–35, 8–10 |
 
+### Marcadores de `BattleZoneTest`
+
+Todos en la celda `0, 0`:
+
+| Marcador | Posición (X, Y, Z) |
+|---|---|
+| `Team1Marker` | `2006.7853, 4235.2397, 223.6429` |
+| `Team2Marker` | `5613.1392, 3554.0488, 266.3232` |
+| `CenterMarker` | `3758.9626, 3850.4097, 240.9001` |
+
 ## Requisitos
 
 - Skyrim Special Edition (con Dawnguard, Hearthfire y Dragonborn, que vienen incluidos).
