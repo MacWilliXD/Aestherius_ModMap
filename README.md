@@ -23,7 +23,7 @@ Añade una **zona de spawn** desde la que los jugadores pueden viajar a las **ci
 | `002CustomsInteriors` | Interiores personalizados |
 | `BattleZoneTest` | Mundo para pruebas de batalla |
 | `000WorldPresets` | Mundo de presets |
-| `Tamriel` (Skyrim) | Cambios en ciudades y caminos; incluye el inicio de una población dunmer detrás de Ventalia (Windhelm), celdas 33–35, 8–10 |
+| `Tamriel` (Skyrim) | Cambios en ciudades y caminos |
 
 ### Marcadores de `BattleZoneTest`
 
