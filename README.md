@@ -41,7 +41,7 @@ Plugin aparte con los arreglos del mapa que dependen de otros mods:
 
 | Lugar | Mod | Arreglo |
 |---|---|---|
-| Falkreath | Cities of the North - Falkreath | Árbol flotante: ajuste del terreno en las celdas `-7, -22` y `-8, -22` de `Tamriel` |
+| Falkreath | Cities of the North - Falkreath | Árbol flotante: se bajaron el árbol y sus decoraciones en la celda `-8, -22` de `Tamriel`, sin tocar el terreno |
 | Ventalia, The Pit (zona de combate) | Capital Windhelm Expansion | Puertas entre Ventalia y The Pit, y ajuste de una reja de la zona |
 
 ## Requisitos
