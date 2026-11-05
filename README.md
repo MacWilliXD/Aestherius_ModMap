@@ -35,10 +35,41 @@ Todos en la celda `0, 0`:
 | `Team2Marker` | `5613.1392, 3554.0488, 266.3232` |
 | `CenterMarker` | `3758.9626, 3850.4097, 240.9001` |
 
+## Arreglos de `AestheriusMapModded.esp`
+
+Plugin aparte con los arreglos del mapa que dependen de otros mods:
+
+| Lugar | Mod | Arreglo |
+|---|---|---|
+| Falkreath | Cities of the North - Falkreath | Árbol flotante: ajuste del terreno en las celdas `-7, -22` y `-8, -22` de `Tamriel` |
+| Ventalia, The Pit (zona de combate) | Capital Windhelm Expansion | Puertas entre Ventalia y The Pit, y ajuste de una reja de la zona |
+
 ## Requisitos
+
+### `AestheriusMap.esp`
 
 - Skyrim Special Edition (con Dawnguard, Hearthfire y Dragonborn, que vienen incluidos).
 - No depende de otros mods.
+
+### `AestheriusMapModded.esp`
+
+Necesita estos masters, y deben cargar antes que él y en este orden:
+
+| Archivo | Qué es |
+|---|---|
+| `Skyrim.esm` | Juego base |
+| `Update.esm` | Juego base |
+| `Dawnguard.esm` | DLC |
+| `HearthFires.esm` | DLC |
+| `Dragonborn.esm` | DLC |
+| `ccBGSSSE001-Fish.esm` | Creation Club |
+| `ccQDRSSE001-SurvivalMode.esl` | Creation Club |
+| `ccBGSSSE037-Curios.esl` | Creation Club |
+| `ccBGSSSE025-AdvDSGS.esm` | Creation Club |
+| `_ResourcePack.esl` | Recursos del juego |
+| `Unofficial Skyrim Special Edition Patch.esp` | Unofficial Skyrim Special Edition Patch |
+| `COTN - Falkreath.esp` | Cities of the North - Falkreath |
+| `WindhelmSSE.esp` | Capital Windhelm Expansion |
 
 ## Contenido
 
@@ -47,6 +78,7 @@ La carpeta `Data/` tiene la misma estructura que la carpeta `Data` de Skyrim:
 | Archivo | Qué es |
 |---|---|
 | `Data/AestheriusMap.esp` | El plugin con los cambios del mapa |
+| `Data/AestheriusMapModded.esp` | El plugin con los arreglos del mapa que dependen de otros mods |
 | `Data/Scripts/TpToPoint_Script.pex` | Script compilado que teletransporta a quien activa el objeto hasta un punto de destino |
 | `Data/Source/Scripts/TpToPoint_Script.psc` | Código fuente del script (solo hace falta para editarlo en el Creation Kit) |
 
@@ -58,7 +90,7 @@ La carpeta `Data/` tiene la misma estructura que la carpeta `Data` de Skyrim:
    ```
 2. Copia el contenido de `Data/` dentro de la carpeta `Data` de Skyrim, por ejemplo:
    `C:\Program Files (x86)\Steam\steamapps\common\Skyrim Special Edition\Data`
-3. Activa `AestheriusMap.esp` en tu gestor de mods (o en `plugins.txt`).
+3. Activa `AestheriusMap.esp` en tu gestor de mods (o en `plugins.txt`). Si usas los mods de los que depende `AestheriusMapModded.esp`, actívalo también, después de sus masters.
 
 ## Actualizar
 
