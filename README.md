@@ -41,8 +41,9 @@ Plugin aparte con los arreglos del mapa que dependen de otros mods:
 
 | Lugar | Mod | Arreglo |
 |---|---|---|
-| Falkreath | Cities of the North - Falkreath | Árbol flotante: se bajaron el árbol y sus decoraciones en la celda `-8, -22` de `Tamriel`, sin tocar el terreno |
+| Falkreath | Cities of the North - Falkreath | Árbol flotante: se bajaron el árbol y sus decoraciones en la celda `-8, -22` de `Tamriel`, sin tocar el terreno. En la misma zona se bajó otro pino y se recolocó un agua del mod |
 | Ventalia, The Pit (zona de combate) | Capital Windhelm Expansion | Puertas entre Ventalia y The Pit, y ajuste de una reja de la zona |
+| Colegio de Hibernalia | Obscure's College of Winterhold | El Arcanaeum y los aposentos del archimago vuelven a la iluminación y los ajustes de celda de vanilla, que cambia `OCW_CellSettings.esp`, y se movió una vitrina de los aposentos |
 
 ## Requisitos
 
@@ -68,6 +69,8 @@ Necesita estos masters, y deben cargar antes que él y en este orden:
 | `ccBGSSSE025-AdvDSGS.esm` | Creation Club |
 | `_ResourcePack.esl` | Recursos del juego |
 | `Unofficial Skyrim Special Edition Patch.esp` | Unofficial Skyrim Special Edition Patch |
+| `OCW_Obscure's_CollegeofWinterhold.esp` | Obscure's College of Winterhold |
+| `OCW_CellSettings.esp` | Obscure's College of Winterhold. Es su master, así que carga después |
 | `COTN - Falkreath.esp` | Cities of the North - Falkreath |
 | `WindhelmSSE.esp` | Capital Windhelm Expansion |
 
