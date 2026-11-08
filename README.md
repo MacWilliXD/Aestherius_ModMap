@@ -42,7 +42,10 @@ Plugin aparte con los arreglos del mapa que dependen de otros mods:
 | Lugar | Mod | Arreglo |
 |---|---|---|
 | Falkreath | Cities of the North - Falkreath | Árbol flotante: se bajaron el árbol y sus decoraciones en la celda `-8, -22` de `Tamriel`, sin tocar el terreno. En la misma zona se bajó otro pino y se recolocó un agua del mod |
-| Ventalia, The Pit (zona de combate) | Capital Windhelm Expansion | Puertas entre Ventalia y The Pit, y ajuste de una reja de la zona |
+| Ventalia, The Pit (zona de combate) | Capital Windhelm Expansion | Puertas entre Ventalia y The Pit (se cambió el destino de dos de ellas), y ajuste de una reja de la zona (se sustituyó una de sus piezas) |
+| Ventalia, exterior | Capital Windhelm Expansion, JK's Skyrim | Terreno retocado en cuatro celdas de `WindhelmWorld` (`31, 9`, `32, 9`, `32, 8` y la del exterior de The Pit, `33, 10`), y objetos de JK's Skyrim y del juego base de esas celdas bajados al nuevo terreno |
+| Ivarstead y túmulo de Shroud Hearth | JK's Skyrim | Objetos de JK's Skyrim bajados al terreno en las celdas `18, -16`, `18, -15` y `19, -16` de `Tamriel` (estaban hasta 4000 unidades en el aire). `Thuldor's Ivarstead - JK's Skyrim Removed.esp` desactiva la mayoría de ellos; en este plugin están activos |
+| Morthal | JK's Skyrim | Un objeto de JK's Skyrim bajado al terreno en la celda `-10, 16` de `Tamriel` |
 | Colegio de Hibernalia | Obscure's College of Winterhold | El Arcanaeum y los aposentos del archimago vuelven a la iluminación y los ajustes de celda de vanilla, que cambia `OCW_CellSettings.esp`, y se movió una vitrina de los aposentos |
 
 ## Requisitos
@@ -72,6 +75,7 @@ Necesita estos masters, y deben cargar antes que él y en este orden:
 | `OCW_Obscure's_CollegeofWinterhold.esp` | Obscure's College of Winterhold |
 | `OCW_CellSettings.esp` | Obscure's College of Winterhold. Es su master, así que carga después |
 | `COTN - Falkreath.esp` | Cities of the North - Falkreath |
+| `JKs Skyrim.esp` | JK's Skyrim |
 | `WindhelmSSE.esp` | Capital Windhelm Expansion |
 
 ## Contenido
