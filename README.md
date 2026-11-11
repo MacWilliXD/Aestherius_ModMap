@@ -65,19 +65,13 @@ Necesita estos masters, y deben cargar antes que él y en este orden:
 | `Skyrim.esm` | Juego base |
 | `Update.esm` | Juego base |
 | `Dawnguard.esm` | DLC |
-| `HearthFires.esm` | DLC |
-| `Dragonborn.esm` | DLC |
-| `ccBGSSSE001-Fish.esm` | Creation Club |
-| `ccQDRSSE001-SurvivalMode.esl` | Creation Club |
-| `ccBGSSSE037-Curios.esl` | Creation Club |
-| `ccBGSSSE025-AdvDSGS.esm` | Creation Club |
-| `_ResourcePack.esl` | Recursos del juego |
-| `Unofficial Skyrim Special Edition Patch.esp` | Unofficial Skyrim Special Edition Patch |
-| `OCW_Obscure's_CollegeofWinterhold.esp` | Obscure's College of Winterhold |
-| `OCW_CellSettings.esp` | Obscure's College of Winterhold. Es su master, así que carga después |
 | `COTN - Falkreath.esp` | Cities of the North - Falkreath |
 | `JKs Skyrim.esp` | JK's Skyrim |
 | `WindhelmSSE.esp` | Capital Windhelm Expansion |
+
+Son solo los que usa: los demás se quitaron con **Clean Masters** de SSEEdit, porque el servidor de SkyMP no carga `.esl` ni algunos de esos mods. El Creation Kit vuelve a añadir como master todo lo que tengas cargado al guardar, así que después de editarlo en el CK hay que repetir la limpieza.
+
+El arreglo del Colegio de Hibernalia deshace lo que cambia `OCW_CellSettings.esp`, así que este plugin tiene que cargar después de él aunque ya no sea su master.
 
 ## Contenido
 
